@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-color: rgba(0,0,0,0.8);
+}
+
+section {
+  height: 800px;
+  background-color: #f037a5;
+  background: linear-gradient(#f037a5 -60%,#fae62d 140%);
+  background:-webkit-gradient(linear,left top,left bottom,color-stop(-60%,#f037a5),color-stop(140%,#fae62d));
+}
+
+.hero-img {
+  height: 100%; 
+  background-size: cover;
+  background-position: center;     
+  background-repeat: no-repeat;     
+  background-image: url("https://www.scdn.co/i/home/hero-burst.svg");     
+}
+
+.main-content {
+  padding-top: 20%;
+  transition: transform .2s; /* Animation */
+}
+
+.main-content > h1:hover {
+  transform: scale(1.05);
+}
+
+button {
+  border: 0px;
+  font-size: 14px;
+  width: 252.656px;
+  height: 47.4844px;
+  border-radius: 500px;
+  background-color: #1DB954;
+}
+
+button:hover {
+  border: 0px;
+  font-size: 14px;
+  width: 252.656px;
+  cursor: pointer;
+  height: 47.4844px;
+  border-radius: 500px;
+  border: 1px solid white;
+  background-color: #1DB954;
+}
+
+footer {
+  height: 600px;
+  background-color: black;
+}
+
+.spotify-logo {
+  width: 140px;
+  height: 40px;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}
+
+.container > ul {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul > li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+ul > li > a {
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.main-content > h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.main-content > h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  max-height: 400px;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+}
+
+.column > h1 {
+  color: #919496;
+  font-size: 13.5px;
+}
+
+.column > h1, p {
+  margin-bottom: 15px;
+}
+
+.footer-logo > h1 {
+  color: white;
+  font-size: 2em;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-icons {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons > .fab {
+  margin: 15px;
+}
+
+.footer-icons > .fab:hover {
+  color: green;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+}
+
+.container > .left {
+  flex: 1;
+  justify-content: space-between;
+}
+.container > .right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fab {
+  font-size: 50px;
+}
+
+a:hover {
+  color: green;
+
+}
+
+.column > p:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.left > p:hover {
+  color: green;
+}
+
+@media (min-width: 576px) {
+  footer {
+    /* background-color: red; */
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    /* background-color: blue; */
+  }
+}
